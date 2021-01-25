@@ -23,7 +23,7 @@ email: oi@hackclubbrasil.com.br
 description: >- # this means to ignore newlines until "baseurl:"
   O Hack Club Brasil é a primeira comunidade para jovens e makers no país.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hackclubbrasil.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hackclubbrasil.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
 # Build settings
 theme: minima
