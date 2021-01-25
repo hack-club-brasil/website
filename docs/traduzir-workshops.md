@@ -10,12 +10,12 @@ permalink: /traduzir-workshops/
 <br/>
 
 
-Olá, ficamos muito felizes que você resolveu nos ajudar! Para traduzir os workshops é necessário conhecimento básico de [git](https://www.youtube.com/watch?v=IBClN6VpJDw&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A){:target="_blank"} e de [markdown](https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md){:target="_blank"}. Fica tranquilo que você pode contar com a gente. Se precisar é só perguntar [aqui](https://github.com/vitorvavolizza/hackclubbjcentro_website/issues/new){:target="_blank"}.
+Olá, ficamos muito felizes que você resolveu nos ajudar! Para traduzir os workshops é necessário conhecimento básico de [git](https://www.youtube.com/watch?v=IBClN6VpJDw&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A){:target="_blank"} e de [markdown](https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md){:target="_blank"}. Fica tranquilo que você pode contar com a gente. Se precisar é só perguntar [aqui](https://github.com/hack-club-brasil/website/issues/new){:target="_blank"}.
 
 
 ## Instalação do Projeto
 
-Vá para [https://github.com/vitorvavolizza/hackclubbjcentro_website](https://github.com/vitorvavolizza/hackclubbjcentro_website){:target="_blank"}.
+Vá para [https://github.com/hack-club-brasil/website](https://github.com/hack-club-brasil/website){:target="_blank"}.
 
 E clique no botão verde `Code`.
 
@@ -25,11 +25,11 @@ Depois, copie o URL.
 
 ![](../img/clonado.jpg)
 
-Vá para seu terminal, crie um diretório novo com `mkdir "nome-do-diretorio"` . Vá para seu diretório novo com `cd "nome-do-diretorio"`. E por fim clone o repositório do site do Hack Club BJ Centro com `git clone "url-copiado"`
+Vá para seu terminal, crie um diretório novo com `mkdir "nome-do-diretorio"` . Vá para seu diretório novo com `cd "nome-do-diretorio"`. E por fim clone o repositório do site do Hack Club Brasil  com `git clone "url-copiado"`
 
 ![](img/terminal-clone.PNG)
 
-Ele vai demorar um tempo clonando o repositório, depois que o processo estiver acabado, vá para o diretório com `cd hackclubbjcentro_website`. E execute `gem install jekyll -v 3.9.0` para instalar o jekyll e `gem install bundler` para instalar o bundler.
+Ele vai demorar um tempo clonando o repositório, depois que o processo estiver acabado, vá para o diretório com `cd hackclubbj_website`. E execute `gem install jekyll -v 3.9.0` para instalar o jekyll e `gem install bundler` para instalar o bundler.
 
 Com o bundler e o jekyll instalados, entre na pasta docs com `cd docs` e execute `bundle install` para instalar todas as dependências.
 
@@ -41,9 +41,9 @@ Você verá algo muito parecido com isto.
 
 ![](img/projeto-iniciado.PNG)
 
-A URL ao lado do `Server address` indica a URL com o seu projeto. Abra no navegador essa URL e você verá o site do Hack Club BJ Centro.
+A URL ao lado do `Server address` indica a URL com o seu projeto. Abra no navegador essa URL e você verá o site do Hack Club Brasil.
 
-![](../img/site-inicial.PNG)
+![](../img/pagina-inicial.PNG)
 
 Sensacional! Você está pronto para começar a traduzir workshops.
 
