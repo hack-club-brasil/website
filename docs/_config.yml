@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hack Club BJ Centro
+title: Hack Club Brasil
 email: oi@hackclubbrasil.com.br
 description: >- # this means to ignore newlines until "baseurl:"
-  O Hack Club Brasil é a primeira comunidade para jovens e makers no país.
+  O Hack Club Brasil é a primeira comunidade para jovens makers no país que querem fazer a difença com tecnologia.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hackclubbrasil.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:

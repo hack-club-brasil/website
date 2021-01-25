@@ -12,7 +12,7 @@ Queremos um espaço em cada escola onde as pessoas estejam fazendo coisas intere
 
 A maioria das aulas de programação ensina apenas conceitos - é como tentar aprender carpintaria sem nenhuma madeira. No Hack Club, você aprende a programar inteiramente através da construção de coisas. Você começa sem experiência alguma, constrói e envia um projeto diferente a cada reunião.
 
-No Hack Club BJ Centro, todos os estudantes aprendem a programar de uma maneira **divertida, inclusiva e criativa**.
+No Hack Club Brasil, todos os estudantes aprendem a programar de uma maneira **divertida, inclusiva e criativa**.
 
 Nos nossos encontros semanais, os membros do clube criam diversos projetos que incluem jogos, aplicativos e websites.
 
