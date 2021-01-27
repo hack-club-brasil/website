@@ -104,11 +104,11 @@ Clique em *Sign-in* method.
 
 ![Sign in methods](img/firebase-9.png)
 
-Aqui você precisa habilitar **Email/Password*** na seção `sign-in providers`. Clique em **Email/Password***, ative-o e depois salve-o.
+Aqui você precisa habilitar **Email/Senha** na seção `Provedores de login`. Clique em **Email/Senha**, ative-o e depois salve-o.
 
 ![Ativando email/senha](img/firebase-10.png)
 
-Após habilitar, você precisará adicionar usuários, então clique na aba `Usuários`.
+Após habilitar, você precisará adicionar usuários, então clique na aba `Users`.
 
 ![Adicionando usuário](img/firebase-11.png)
 
@@ -139,13 +139,13 @@ Você também encontrará linhas como:
 
 Na tag `<body>`, você precisará criar duas divisões. A primeira divisão é para a página de login e a segunda é para a página de logout.
 
-##### Divisão 1:
+#### Divisão 1:
 
 Crie a sua primeira divisão (`<div>`) com a classe `div_principal` e atribua o ID `div_login`.
 
 Você também pode dar um título a sua página utilizando tags de título (`<h1>,<h2>,<h3>.....`).
 
-Nesta divisão, você criará dois campos de entrada para um e-mail e senha utilizando a tag `<input>` com `type` definido como `email` e `password` respectivamente. Atribua IDs a ambos os campos de entrada como `campo_de_email` e `campo_de_senha`, respectivamente.
+Nesta divisão, você criará dois campos de entrada para um e-mail e senha utilizando a tag `<input>` com `type` definidos como `email` e `password` respectivamente. Atribua IDs a ambos os campos de entrada como `campo_de_email` e `campo_de_senha`, respectivamente.
 
 Você também pode adicionar o atributo `placeholder` que especifica uma pequena dica que descreve o valor esperado de um campo de entrada / área de texto.
 
@@ -153,7 +153,7 @@ Aqui você também criará um botão de login utilizando a tag `<button>` e atri
 
 Portanto, veja como deve ficar sua primeira divisão 👇:
 
-```HTML
+```html
 <div class="div_principal" id="div_login">
     <h3>Faça seu Login:</h3>
     <input type="email" placeholder="insira seu email" id="campo_de_email">
@@ -162,7 +162,7 @@ Portanto, veja como deve ficar sua primeira divisão 👇:
 </div>
 ```
 
-##### Divisão 2:
+#### Divisão 2:
 
 Crie sua segunda divisão abaixo da primeira com uma classe de `div_logado` e atribua um ID de `div_usuario`.
 
@@ -170,7 +170,7 @@ Nesta divisão, você criará um botão de sair e atribuirá a ele uma função 
 
 Portanto, veja como deve ficar sua segunda divisão 👇:
 
-```HTML
+```html
 <div class="div_logado" id="div_usuario">
     <h3>AEEEEEEE! Você entrou com sucesso usando o Firebase 🎉🎉🎉</h3>
     <button onclick="sair()">Sair</button>
@@ -181,7 +181,7 @@ Acrescente esta divisão logo após a primeira.
 
 Portanto, aqui está como seu código HTML deve ser até agora:
 
-```HTML
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -235,7 +235,7 @@ Se liga que essa parte é **importante**, veja a primeira linha do código:
 <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
 ```
 
-essa linha retorna um erro, pois só carrega a biblioteca do Firebase. Então, para isso, acrescente a linha abaixo rm cima da primeira linha.
+essa linha retorna um erro, pois só carrega a biblioteca do Firebase. Então, para isso, acrescente a linha abaixo em cima da primeira linha.
 
 ```html
 <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
@@ -329,7 +329,7 @@ firebase.auth().onAuthStateChanged(function (usuario) {
 
 Agora podemos mostrar a divisão com ID `div_login` na página de login e a divisão com ID `div_usuario` quando o usuário estiver conectado.
 
-Adicione as duas linhas de código abaixo na condição `if` do código acima.
+Adicione essas duas linhas de código na condição `if` do código acima.
 
 ```javascript
 document.getElementById('div_usuario').style.display = 'block'
@@ -384,11 +384,11 @@ Agora, olha como ficou:
 
 Agora você precisa trabalhar em ambas as funções que foram atribuídas aos botões HTML (`entrar()` e `sair()`).
 
-##### Função entrar()
+#### Função entrar()
 
 Um usuário só pode fazer o login se seu registro for armazenado no Firebase. O Firebase tem um método chamado [`Login de usuários existentes`](https://firebase.google.com/docs/auth/web/start#sign_in_existing_users) que permite aos usuários existentes entrar utilizando seu endereço de e-mail e senha.
 
-Agora você precisará criar variáveis em `entrar()` chamadas `emailUsuario` and `senhaUsuario`. Eles receberão os valores de e-mail e senha dos campos de entrada (`<input>`) com IDs  `campo_de_email` e `campo_de_senha`.
+Agora você precisará criar variáveis em `entrar()` chamadas `emailUsuario` e `senhaUsuario`. Eles receberão os valores de e-mail e senha dos campos de entrada (`<input>`) com IDs  `campo_de_email` e `campo_de_senha`.
 
 ```javascript
 function entrar() {
@@ -441,7 +441,7 @@ function entrar() {
 }
 ```
 
-##### Função sair()
+#### Função sair()
 
 Para a função sair, adicione o seguinte código abaixo da função de entrar():
 
@@ -494,21 +494,21 @@ Seu site deve se parecer com esse 👇
 
 Tente entrar com o e-mail e a senha que você armazenou no Firebase. Se funcionou, então está tudo certo!
 
-Como você pode ver, o objetivo principal desta oficina é completado aqui. Para que sua página web fique mais legal, você pode adicionar algum CSS personalizado.
+Como você pode ver, o objetivo principal desta oficina foi completado aqui. Para que sua página web fique mais legal, você pode adicionar um pouco de CSS personalizado.
 
 
 #### CSS
 
-O arquivo `style.css` presente em sua repl logo abaixo do `script.js` dá estilos, desenhos e cores à sua página web.
+O arquivo `style.css` presente em seu projeto logo abaixo do `script.js` dá estilos, desenhos e cores à sua página web.
 
-Você só precisa fazê-lo:
+Você só precisa:
 
 - Mencionar o elemento/ nome da classe/ ID. (ex: `<div>`, `div_principal`, `campo_de_email`)
 - Abrir chaves `{`.
 - Adicionar estilos.
 - Fechar chaves `}` .
 
-E aqui vai como você pode adicionar estilos na sua tag `<body>`:
+E aqui vai como você pode adicionar estilos à sua tag `<body>`:
 
 ```CSS
 body {
@@ -529,7 +529,7 @@ Se você precisar de ajuda com relação às várias palavras-chave usadas no CS
 
 Boaaaa 🎊! Você concluiu!!
 
-Dá uma olhada no [código pronto](https://repl.it/@biel42/tela-login-segura).
+Dê uma olhada no [código final](https://repl.it/@biel42/tela-login-segura).
 
 ## Uhuuuuuuuuuuuu!🎉
 
@@ -537,11 +537,11 @@ Você terminou o Workshop de Autenticação de Login na Web completando todas as
 
 - [x] Criar um projeto no Firebase.
 - [x] Conectar o Firebase à sua página da Web.
-- [x] Projetando uma página Web.
+- [x] Projetar uma página Web.
 
-## ⚡ O que vem a agora??
+## ⚡ O que vem agora??
 
-Agora, Como você pode expandir seu projeto? Tente adicionar algumas outras características com a ajuda do [Guia Firebase](https://firebase.google.com/docs/auth/web/start?authuser=0)
+Agora, como você pode expandir seu projeto? Tente adicionar algumas outras características com a ajuda do [Guia Firebase](https://firebase.google.com/docs/auth/web/start?authuser=0)
 
 Aqui estão alguns exemplos 👇
 
