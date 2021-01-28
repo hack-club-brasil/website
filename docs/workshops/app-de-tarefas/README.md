@@ -712,12 +712,12 @@ Estes são alguns exemplos para inspirar seu projeto.
 
 * **Example-1**: Um App de Tarefas onde você pode editar a tarefa adicionada, usando [Material UI](https://material-ui.com/) para componentes de estilo.
 
-     [Demo](https://todo-list-app.giridharhackclu.repl.co/). [Código-fonte](https://repl.it/@Giridharhackclu/Todo-List-App#src/App.js).
+     [Demo](https://todo-list-app.hcbjcentro.repl.co/). [Código-fonte](https://repl.it/@hcbjcentro/Todo-List-App#src/App.js).
     
 * **Exemplo-2**: Formulário de contato usando React e Firebase.
 
-     [Demo](https://Contact-form.giridharhackclu.repl.co). [Código-fonte](https://repl.it/@Giridharhackclu/Contact-form#src/App.js).
+     [Demo](https://contact-form.hcbjcentro.repl.co/). [Código-fonte](https://repl.it/@hcbjcentro/Contact-form#src/App.js).
 
 * **Exemplo-3**: aplicativo de Lista telefônica (mais entradas para o banco de dados)
 
-     [Demo](https://phonebook.giridharhackclu.repl.co). [Código-fonte](https://repl.it/@Giridharhackclu/phonebook#src/App.js).
+     [Demo](https://phonebook.hcbjcentro.repl.co/). [Código-fonte](https://repl.it/@hcbjcentro/phonebook#build/index.html).

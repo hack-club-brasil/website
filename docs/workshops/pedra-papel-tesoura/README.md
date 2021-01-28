@@ -271,9 +271,9 @@ Aqui estão algumas ideais do que você pode fazer:
 
 **Projetos de alguns hackclubbers que hackearam esse workshop:**
 
-- [Adicionando novas ações](https://repl.it/@JackTDC/Rock-Paper-Scissors-Lizard-Spock)
-- [Mudando a interface](https://repl.it/@JackTDC/Rock-Paper-Scissors#main.py)
-- [Tornando o jogo para 2 jogadores](https://repl.it/@JackTDC/Rock-paper-Scissors2-player#main.py)
+- [Adicionando novas ações](https://repl.it/@hcbjcentro/pedra-papel-tesoura-lagarto-spock)
+- [Mudando a interface](https://repl.it/@hcbjcentro/outra-ui-ppt)
+- [Tornando o jogo para 2 jogadores](https://repl.it/@hcbjcentro/ppr-2)
 
 [máquina de escrever]: https://youtu.be/2h8e0tXHfk0
 

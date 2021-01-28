@@ -1,8 +1,9 @@
 ---
-name: 'Autenticação de Login na Web'
+title: 'Login na Web'
 description: 'Construa uma página de login segura na web usando Firebase & JavaScript'
 bg-image: "/workshops/login-seguro/img/firebase-cover.png"
-title: 'Login na Web'
+permalink: /workshops/login-seguro/
+order: 15
 ---
 
 <center>Construa uma página de login segura na web usando Firebase & JavaScript</center>  

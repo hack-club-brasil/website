@@ -329,10 +329,10 @@ Certifique-se de criar uma conta no codesandbox.io para salvar esta maravilhosa 
 Aqui estão algumas tarefas para você:
 
 1. Tente exibir uma lista de citações em seu site.
-[Exemplo](https://codesandbox.io/s/quotesgenerator-example-1-6thve)
+[Exemplo](https://codesandbox.io/s/gerador-de-citacoes-lista-4ftud)
 
 2. Tente adicionar a funcionalidade de ir e vir em seu aplicativo de citações!
-[Exemplo](https://codesandbox.io/s/peaceful-fog-80vmr)
+[Exemplo](https://codesandbox.io/s/gerador-de-citacoes-proximo-64umr)
 
 3. Será que você consegue deixar as citações em português?
 

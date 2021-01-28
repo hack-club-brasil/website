@@ -553,8 +553,8 @@ Após a personalização, compartilhe comigo o workshop no slack. Meu nome no Sl
 Aqui estão alguns projetos para inspirar você:
 
 - **Jogo da Memória:** Jogo da Memória totalmente funcional.<br>
-  [Demo](https://full-functional-memory-game.giridharhackclu.repl.co/) - [Código](https://repl.it/@Giridharhackclu/Full-functional-Memory-Game#index.html).
+  [Demo](https://jogo-da-memoria-tot-funcional.hcbjcentro.repl.co/) - [Código](https://repl.it/@hcbjcentro/jogo-da-memoria-tot-funcional).
 - **Jogo da Memória usando animações:** As cartas são animadas quando viradas, tornando o jogo 3D. CSS avançado foi utilizado nesse projeto.<br>
-  [Demo](https://memory-card.giridharhackclu.repl.co/) - [Código](https://repl.it/@Giridharhackclu/Memory-Card#script.js).
+  [Demo](https://memory-card.hcbjcentro.repl.co/) - [Código](https://repl.it/@hcbjcentro/Jogo-da-Memoria#style.css).
 - **Jogo da Memória para 2 jogadores:** Esse jogo da memória pode ser jogado por 2 jogadores.<br>
-  [Demo](https://two-player-memory-game.giridharhackclu.repl.co/) - [Código](https://repl.it/@Giridharhackclu/Two-Player-Memory-Game#script.js).
+  [Demo](https://dois-p-jogo-da-memoria.hcbjcentro.repl.co/) - [Código](https://repl.it/@hcbjcentro/dois-p-jogo-da-memoria).

@@ -3,7 +3,7 @@ title: 'App do Tempo'
 description: 'Crie um app para checar o tempo com HTML, CSS e JavaScript'
 bg-image: '/workshops/app-do-tempo/img/fundo.png'
 permalink: /workshops/app-do-tempo/
-order: 15
+order: 16
 ---
 
 <center>Crie um app para checar o tempo com HTML, CSS e JavaScript</center>  
@@ -606,9 +606,9 @@ Aqui estão algumas coisas que você deve considerar para melhorar seu conhecime
 
 ## Exemplos de Projetos Hackeados
 
-1. [Projeto](https://Weather1.gautamjajoo.repl.co/) incluindo outros detalhes do API como umidade, pressão, etc.
+1. [Projeto](https://app-do-tempo-1.hcbjcentro.repl.co/) incluindo outros detalhes do API como umidade, pressão, etc.
 
-2. [Projeto](https://weather2.gautamjajoo.repl.co/) com alguns ícones baseados no tipo de clima do local.
+2. [Projeto](https://app-do-tempo-2.hcbjcentro.repl.co/) com alguns ícones baseados no tipo de clima do local.
 
 Por último, mas não menos importante, seja o mais criativo e dinâmico quanto possível. Isto é apenas um começo e tenho certeza de que após este workshop você criará projetos impressionantes.
 

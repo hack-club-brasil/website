@@ -261,9 +261,9 @@ Agora que você concluiu a construção, pode compartilhar sua bela criação co
 
 Mas você ainda não terminou. Este projeto pode ser expandido de muitas maneiras. Aqui estão alguns exemplos:
 
-- **Toque uma música automatizada:** [demo e código](https://repl.it/@emmanuel39hanks/drumpadwithabeattrack)
-- **Toque o drum pad com seu teclado:** [demo e código](https://repl.it/@emmanuel39hanks/drumpadwithkeyboard)
-- **Faça um drum pad com um estilo diferenciado:** [demo e código](https://repl.it/@emmanuel39hanks/beautifulstyleddrumpad)
+- **Toque uma música automatizada:** [demo e código](https://repl.it/@hcbjcentro/drumpadcombatida)
+- **Toque o drum pad com seu teclado:** [demo e código](https://repl.it/@hcbjcentro/drumpadcomteclado)
+- **Faça um drum pad com um estilo diferenciado:** [demo e código](https://repl.it/@hcbjcentro/drumpadbonito)
 
 <summary>Recursos:</summary>
 

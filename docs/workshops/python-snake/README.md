@@ -286,8 +286,8 @@ Agora você deve conseguir jogar Snake no terminal! Você pode executar o códig
 ## Hackeando
 Agora você tem controle total sobre o código. Vá em frente e experimente-o para ver se consegue encontrar maneiras de torná-lo mais divertido. Aqui estão algumas ideias:
 
-- Adicionar uma opção de jogar novamente: [Demo + Código](https://repl.it/@kyryloorlov/Snake-Game-Try-Again)
-- Adicione cores à cobra: [Demo + Código](https://repl.it/@kyryloorlov/Snake-Game-With-Colors)
-- Crie uma pontuação: [Demo + Código](https://repl.it/@kyryloorlov/Snake-Game-With-Score)
+- Adicionar uma opção de jogar novamente: [Demo + Código](https://repl.it/@hcbjcentro/snake-novamente)
+- Adicione cores à cobra: [Demo + Código](https://repl.it/@hcbjcentro/snake-com-coress)
+- Crie uma pontuação: [Demo + Código](https://repl.it/@hcbjcentro/snake-com-pontuacao#main.py)
 
 Divirta-se jogando e pegando maçãs! Happy Hacking!
