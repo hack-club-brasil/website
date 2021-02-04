@@ -1,7 +1,7 @@
 ---
 title: 'Aventura de Texto com Rust'
 description: 'Construa uma aventura de texto como seu primeiro programa em Rust'
-bg-image: '/workshops/aventura-de-texto-rust/img/fundo  -rust.png'
+bg-image: '/workshops/aventura-de-texto-rust/img/fundo-rust.png'
 permalink: /workshops/aventura-de-texto-rust/
 order: 21
 ---
