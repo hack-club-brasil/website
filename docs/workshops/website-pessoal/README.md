@@ -23,20 +23,16 @@ Aqui está a [demonstração ao vivo][final_live_demo] e [código final][final_c
 
 Este workshop deve levar cerca de 45 minutos.
 
-[final_live_demo]: https://website--prophetorpheus.repl.co
-[final_code]: https://repl.it/@prophetorpheus/website
+[final_live_demo]:https://Website-Pessoal.hcbjcentro.repl.co
+[final_code]:https://website-pessoal.hcbjcentro.repl.co/
 
 ## Parte I: Configuração
 
 ### Preparando-se para iniciar no Repl.it
 
-[Repl.it](https://repl.it) é um editor de código online. É similar ao Google Docs, mas tem algumas características importantes que o tornam muito melhor para digitação de código do que um editor de texto regular.
+O [Repl.it](https://repl.it) é um editor de código online. É similar ao Google Docs, mas tem algumas características importantes que o tornam muito melhor para digitação de código do que um editor de texto regular.
 
 Para começar, vá para [https://repl.it/languages/html](https://repl.it/languages/html). 
-
-[Repl.it](https://repl.it) é um editor de código online. É similar ao Google Docs, mas tem algumas características importantes que o tornam muito melhor para digitação de código do que um editor de texto regular.
-
-Para começar, vá para [https://repl.it/languages/html](https://repl.it/languages/html).
 
 Para criar seu site e poder voltar a ele no futuro, você precisará criar uma conta no Repl.it.
 
@@ -110,7 +106,7 @@ Vá em frente e adicione seu nome em uma tag de cabeçalho, e sua descrição em
 ```html
 <!DOCTYPE html>
 <html>
-  <head>>/head>
+  <head>
   <body>
     <h1>Profeta Orfeu</h1>
     <p>Dino programadora</p>
@@ -123,10 +119,10 @@ Se sua descrição foi alguns parágrafos, ou teve quebras de linha, você deve 
 ```html
 <!DOCTYPE html>
 <html>
-  <head>>/head>
+  <head>
   <body>
     <h1>Profeta Orfeu</h1>
-    <p>Dino programdora</p>
+    <p>Dino programadora</p>
     <p>Vai programar por comida!</p>
   </body>
 </html>
@@ -136,7 +132,7 @@ Execute seu `index.html` e veja a visualização ao vivo. Viva!
 
 ### 4) Adicionando imagens ao corpo
 
-Primeiro, encontre uma imagem que você gostaria de incluir em sua página. Você pode encontrar algo no Google Images, Facebook, ou Imgur. Vamos precisar da URL de origem da imagem, então clique com o botão direito do mouse e selecione "Copiar endereço da imagem".
+Primeiro, encontre uma imagem que você gostaria de incluir em sua página. Você pode encontrar algo no Google Imagens, Facebook, ou Imgur. Vamos precisar da URL de origem da imagem, então clique com o botão direito do mouse e selecione "Copiar endereço da imagem".
 
 ![](img/copiar-img.png)
 
@@ -160,9 +156,9 @@ Vá em frente e adicione isto em seu `index.html` agora. Eu coloquei minha foto 
     <img
       src="https://github.com/hackclub/dinosaurs/raw/master/smart_dinosaur_docs.png"
     />
-    <h1>Prophet Orpheus</h1>
-    <p>Coder Dino</p>
-    <p>Will code for food</p>
+    <h1>Profeta Orfeu</h1>
+    <p>Dino programadora</p>
+    <p>Vai programar por comida!</p>
   </body>
 </html>
 ```
@@ -171,7 +167,7 @@ Vá em frente e adicione isto em seu `index.html` agora. Eu coloquei minha foto 
 
 Lembre-se, você precisa dar **Run** em seu programa toda vez que quiser ver seu website atualizado.
 
-Embora nosso website tenha algum texto exista na _internet_, ainda não terminamos. Nossa página na internet é totalmente funcional, mas precisa de um pouco de ajuda no departamento de "estilo". Não se preocupe. O CSS permitirá que você manipule o estilo de sua página para todas as suas necessidades.
+Embora nosso website tenha um pouco de texto e exista na _internet_, ainda não terminamos. Nossa página na internet é totalmente funcional, mas precisa de um pouco de ajuda no departamento de "estilo". Não se preocupe. O CSS permitirá que você manipule o estilo de sua página para todas as suas necessidades.
 
 ## Parte III: O arquivo CSS
 
@@ -212,7 +208,7 @@ Nosso arquivo HTML agora parecerá com isso:
 ```
 ### 2) Adicionando Estilos com CSS
 
-Agora que vinculamos nosso arquivo CSS ao nosso arquivo HTML, vamos escrever algum CSS para redimensionar a imagem.
+Agora que vinculamos nosso arquivo CSS ao nosso arquivo HTML, vamos escrever CSS para redimensionar a imagem.
 
 Abra o `style.css` e digite o seguinte:
 
@@ -314,11 +310,11 @@ Estes são alguns recursos adicionais que você pode usar para tornar seu site a
 
 ## Parte VI: Compartilhando com a Comunidade
 
-Agora que você terminou de construir um site, você deve compartilhar sua bela criação - porque seu site está na internet, você pode compartilhá-lo com qualquer pessoa que também esteja online! Lembre-se, é tão fácil quanto dar-lhes sua URL!
+Agora que você terminou de construir um site, você deve compartilhar sua bela criação - porque seu site está na internet, você pode compartilhá-lo com qualquer pessoa que também esteja online! Lembre-se, é tão fácil quanto fornecer a URL!
 
 Você provavelmente conhece as melhores maneiras de entrar em contato com seus amigos e familiares, mas se você quiser compartilhar seu projeto com a comunidade mundial do Hack Club, não há melhor lugar para fazer isso do que no Slack do Hack Club.
 
 1. Em uma nova aba, abra e siga [estas instruções] [slack] para se inscrever em nosso Slack.
-2. Em seguida, poste o link no canal [`#ship`](https://hackclub.slack.com/messages/ship) para compartilhá-lo com todos!
+2. Em seguida, poste o link no canal [`#ship`](https://hackclub.slack.com/messages/ship) para compartilhar com todos!
 
 [slack]: https://slack.hackclub.com/

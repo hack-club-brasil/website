@@ -36,7 +36,7 @@ Links para uma demonstração ao vivo e do código final abaixo. Este workshop d
 
 ## Configurar o projeto
 
-Abra um novo projeto HTML no <a href="https://repl.it/languages/html" target="_blank"> **repl.it**/languages/html </a>
+Abra um novo projeto HTML em <a href="https://repl.it/languages/html" target="_blank"> repl.it/languages/html </a>
 
 ### Obter imagens para o jogo
 
@@ -118,7 +118,7 @@ Mude sua tag `img` para ter essa aparência também, depois clique no Pé Grande
 
 Oops, não funcionou! Por que isso aconteceu?
 
-Outra habilidade importante quando estiver hackeando é saber como consertar as coisas quando elas dão errado. repl.it dá uma dica: a aspas após o `alert(` tem um sublinhado vermelho.
+Outra habilidade importante quando estiver hackeando é saber como consertar as coisas quando elas dão errado. O repl.it dá uma dica: a aspas após o `alert(` tem um sublinhado vermelho.
 
 Aqui está o que deu errado. Esperávamos que a aspas após `alert(` indicasse o início da mensagem, mas o que realmente fez foi indicar o fim do atributo `onclick`.
 
@@ -166,7 +166,7 @@ body {
 Há várias maneiras de acrescentar a imagem de fundo. Aqui está uma maneira:
 
 1. Pesquise `html background image`.
-2. O primeiro link o traz aqui: http://www.w3schools.com/cssref/pr_background-image.asp
+2. O primeiro link o leva aqui: [http://www.w3schools.com/cssref/pr_background-image.asp](http://www.w3schools.com/cssref/pr_background-image.asp)
 3. Há um exemplo próximo ao topo. Você pode clicar em "Try it Yourself" para ver o HTML completo do exemplo.
 4. Abra o arquivo `style.css` como no exemplo, mas substitua a URL pela imagem da floresta. Você não precisa da regra da cor de fundo, já que já estamos definindo uma imagem de fundo.
 5. Lembre-se de linkar seu arquivo CSS ao seu arquivo HTML!
@@ -217,8 +217,7 @@ Também devemos ir em frente e adicionar o atributo `onload` à tag do body. Há
 
 ```html
 <body onload="carregarPeGrande()">
-  <img id="peGrande" onclick="alert('Muito bem! Você encontrou o Pé Grande!');"
-/>
+  <img id="peGrande" onclick="alert('Muito bem! Você encontrou o Pé Grande!');"/>
 </body>
 ```
 
@@ -246,7 +245,7 @@ Sinta-se à vontade para experimentar os valores `left` e `top` para encontrar u
 
 Agora temos outro problema. Este jogo é... muito fácil. Quando alguém o jogar uma vez, será capaz de vencê-lo toda vez, sem nenhum desafio! Precisamos escrever uma função que irá mover o pé grande aleatoriamente em torno da página depois que você vencê-lo.
 
-Abra seu arquivo script.js e vamos fazer uma nova função `moverPeGrande;`
+Abra seu arquivo script.js e vamos fazer uma nova função `moverPeGrande()`
 
 ```js
 function moverPeGrande() {}
@@ -347,7 +346,7 @@ Muito massa, ótimo trabalho!
 
 ### Celebre!
 
-Parabéns, você tem um jogo funcionado! Você terminou!
+Parabéns, você tem um jogo funcionando! Você terminou!
 
 ![Charlie Brown celebrando](img/celebrate_charlie_brown.gif)
 
