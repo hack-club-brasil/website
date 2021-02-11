@@ -3,6 +3,7 @@ title: 'Cronômetro'
 description: 'Construa um cronômetro simples com HTML, CSS & JavaScript'
 bg-image: "/workshops/cronometro/img/bgfundo.png"
 permalink: /workshops/cronometro/
+order: 24
 ---
 
 
@@ -18,7 +19,7 @@ Aposto que você já usou um cronômetro muitas vezes, seja para corridas ou ape
 <img src="img/project.png">
 </a>
 
-Aqui está o [código fonte](https://repl.it/@FaisalSayed1/Stopwatch-HTMLCSSJS) e a [demonstração live](https://stopwatch-htmlcssjs.faisalsayed1.repl.co/).
+Aqui está o [código fonte](https://repl.it/@FaisalSayed1/Stopwatch-HTMLCSSJS) e a [demonstração ao vivo](https://stopwatch-htmlcssjs.faisalsayed1.repl.co/).
 
 ## Parte 1:  Pré-requisitos
 
@@ -32,7 +33,7 @@ Você deve ter um conhecimento básico de:
 
 ### Configurando seu ambiente de código no Repl.it
 
-[Repl.it](https://repl.it) é um editor de código online. Você não precisa usar o Repl.it, mas sugiro que use, uma vez que ele configura tudo para você e você e não precisa de instalar nada.
+O [Repl.it](https://repl.it) é um editor de código online. Você não precisa usar o Repl.it, mas sugiro que use, uma vez que ele configura tudo para você e não é necessário instalar nada.
 
 Além disso, preparei um código inicial para que você possa começar. Basta ir [aqui](https://repl.it/@biel42/Cronometro-Codigo-Inicial) e seu ambiente de de desenvolvimento irá iniciar em segundos ;)!
 
@@ -150,7 +151,7 @@ let minNum = 0
 let INTERVALO
 ```
 
-Explicação: Vamos incrementar as variáveis `miliNum`, `segNum` e `minNum` e exibi-la na tela quando o usuário iniciar o cronômetro. A variável `INTERVALO` será utilizada para limpar ou definir os intervalos.
+Explicação: Vamos incrementar as variáveis `miliNum`, `segNum` e `minNum` e exibi-las na tela quando o usuário iniciar o cronômetro. A variável `INTERVALO` será utilizada para limpar ou definir os intervalos.
 
 A seguir, definiremos algumas funções para incrementar milissegundos, segundos e minutos cada uma e as adicionaremos ao nosso HTML.
 
@@ -182,9 +183,9 @@ function iniciar() {
 }
 ```
 
-Explicação: Na função `start()`, podemos utilizar as propriedades `setInterval` e `clearInterval` para o funcionamento de nosso cronômetro. Mas antes de mais nada, limparemos todos os intervalos, se houver, antes de estabelecer um novo intervalo. Definimos a variável `INTERVALO` pra isso.
+Explicação: Na função `iniciar()`, podemos utilizar as propriedades `setInterval` e `clearInterval` para o funcionamento de nosso cronômetro. Mas antes de mais nada, limparemos todos os intervalos, se houver, antes de estabelecer um novo intervalo. Definimos a variável `INTERVALO` pra isso.
 
-Após limparmos todos os intervalos anteriores, definimos um novo intervalo de 0,010 segundos e chamaremos a função `milissegundos()` após a cada 0,010 segundos.
+Após limparmos todos os intervalos anteriores, definimos um novo intervalo de 0,010 segundos e chamaremos a função `milissegundos()` a cada 0,010 segundos.
 
 **NOTA:** 0,010 segundos = 1 milissegundo
 
@@ -447,7 +448,7 @@ Aqui está o projeto finalizado:
 
 ![GIF do projeto finalizado](img/1final.gif)
 
-## Part 4: Final
+## Parte 4: Final
 
 Se você ainda não criou uma conta no repl.it, faz lá, rapidão para salvar essa maravilhosa peça de arte que você acabou de criar!
 
@@ -460,9 +461,9 @@ Aqui estão algumas coisas que você pode fazer:
 
 Aqui estão mais alguns exemplos para você:
 
-1. [Cronômetro com horas](https://repl.it/@FaisalSayed1/Stopwatch-with-hours).
-2. [Cronômetro com 3 dígitos milissegundos](https://repl.it/@FaisalSayed1/Stopwatch-with-3-digit-milliseconds).
-3. [Cronômetro com botão de INICIAR dinâmico](https://repl.it/@FaisalSayed1/Stopwatch-with-dynamic-start-button).
+1. [Cronômetro com horas](https://repl.it/@hcbjcentro/Cronometro-com-Horas).
+2. [Cronômetro com 3 dígitos de milissegundos](https://repl.it/@FaisalSayed1/Stopwatch-with-3-digit-milliseconds).
+3. [Cronômetro com botão de INICIAR dinâmico](https://repl.it/@hcbjcentro/Cronometro-com-Botao-de-Iniciar-Dinamico).
 
 Construído por Hack Clubbers:
 
@@ -477,6 +478,6 @@ Você provavelmente conhece as melhores maneiras de entrar em contato com seus a
 1. Em uma nova aba, abra e siga [estas instruções][slack] para se inscrever em nosso Slack.
 2. Depois, poste o link para o canal [`#scrapbook`](https://hackclub.slack.com/messages/scrapbook) para compartilhá-lo com todos! Também me pingando com o que você construiu!
 
-PS: Eu estou `@fayd` no Slack!
+PS: Eu sou o `@fayd` no Slack!
 
 [slack]: https://slack.hackclub.com/
