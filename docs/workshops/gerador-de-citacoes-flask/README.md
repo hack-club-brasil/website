@@ -69,7 +69,7 @@ Como você pode ver, as rotas do Flask são definidas com o `@flaskinstance.rout
 
 ![meme do me dê seu telefone, mas é me dê seus dados](img/medeseusdados.png)
 
-Anteriormente, importamos o módulo `requests`, que utilizaremos para fazer [pedidos http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
+Anteriormente, importamos o módulo `requests`, que utilizaremos para fazer [requisições HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
 
 Dentro da função `index`, adicione o seguinte código:
 
@@ -84,8 +84,8 @@ def index():
   return render_template("index.html",citacao=citacao)
 ```
 
-- Começamos declarando uma variável `url` que contém a url do API que estamos tentando buscar
-- Então, fazemos um [requisição HTTP GET](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/GET) para a url utilizando a biblioteca de `requests` e atribuímos a uma variável `dados`.
+- Começamos declarando uma variável `url` que contém a url da API que estamos tentando buscar
+- Então, fazemos uma [requisição HTTP GET](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/GET) para a url utilizando a biblioteca de `requests` e atribuímos a uma variável `dados`.
 - A seguir, analisamos a resposta HTTP utilizando `dados.json()`
   - A resposta da API parece com isso:
   ```json
