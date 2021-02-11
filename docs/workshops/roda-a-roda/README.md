@@ -100,7 +100,7 @@ Dentro do div `caixa`, crie outro div com a classe `caixa1`. Em seguida, dentro 
 </div>
 ```
 
-^^^ Neste momento, suas divisões deve estar parecidas com isto.
+^^^ Neste momento, suas divisões devem estar parecidas com isto.
 
 As opções em sua roda giratória estarão dentro das tags `span`. Portanto, entre cada tag `span`, adicione as opções que você quiser em sua roda giratória entre tags `<b>` para deixá-las em negrito. Vai fundo!
 
@@ -203,7 +203,7 @@ Na linha número `2`, demos o tamanho do container (triângulos de nossa roda). 
 
 ![botão girar sem borda](img/girar-limpo.PNG)
 
-^^^ Se utlizarmos `outline: none`, então nosso botão terá este aspecto (sem nenhuma borda) após clicarmos.
+^^^ Se utilizarmos `outline: none`, então nosso botão terá este aspecto (sem nenhuma borda) após clicarmos.
 
 Agora no próximo bloco (linha `9`), temos `font-family': Open Sans;` esta sintaxe é utilizada para dar o `nome` da fonte que queremos ter em nosso bloco. 
 
