@@ -471,13 +471,14 @@ Construído por Hack Clubbers:
 2. [Tanishq](https://rundowncompassionatepassword.tanishqsoni.repl.co/)
 3. [Eric Zhu](https://frivolousshimmeringblock.ericzhu7.repl.co/)
 
-Agora que você terminou de construir este maravilhoso projeto, você deve compartilhar sua bela criação com outras pessoas! Lembre-se, é fácil, só mandar a URL!
+Agora que você terminou de construir este projeto maravilhoso, compartilhe sua bela criação com outras pessoas! Lembre-se, é só mandar a URL do seu projeto!
 
-Você provavelmente conhece as melhores maneiras de entrar em contato com seus amigos e familiares, mas se você quiser compartilhar seu projeto com a comunidade mundial do Hack Club, não há melhor lugar para fazer isso do que no Slack do Club.
+Você provavelmente conhece as melhores maneiras de entrar em contato com seus amigos e familiares, mas se você quiser compartilhar seu projeto com a comunidade Brasileira do Hack Club, não há melhor lugar para fazer isso do que no Discord do Hack Club Brasil.✨
 
-1. Em uma nova aba, abra e siga [estas instruções][slack] para se inscrever em nosso Slack.
-2. Depois, poste o link para o canal [`#scrapbook`](https://hackclub.slack.com/messages/scrapbook) para compartilhá-lo com todos! Também me pingando com o que você construiu!
+1. Clique [aqui][discord]{:target="_blank"} para fazer parte da nossa comunidade!
+2. Depois, poste o link do seu projeto no canal `💡┇criações` para compartilhá-lo com todos os HackClubbers!
 
-PS: Eu sou o `@fayd` no Slack!
+A comunidade te espera!🎉🎉
 
-[slack]: https://slack.hackclub.com/
+
+[discord]: http://bit.ly/discord-hc-brasil
