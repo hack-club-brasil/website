@@ -17,7 +17,7 @@ Neste workshop, você aprenderá como fazer um aplicativo de reconhecimento da f
 
 ![App de reconhecimento de fala](https://cloud-ekrhqwq4i.vercel.app/0image.png)
 
-[Demonstração Live](https://reconhecimento-de-fala.biel42.repl.co/)
+[Demonstração ao Vivo](https://reconhecimento-de-fala.biel42.repl.co/)
 <br>
 [Código fonte](https://repl.it/@biel42/reconhecimento-de-fala)
 
@@ -183,7 +183,7 @@ reconhecimento.onresult = (evento) => {
 ```
 
 - A propriedade `onresult` da interface SpeechRecognition representa um manipulador de eventos que será executado quando o serviço de reconhecimento de fala retornar um resultado - uma palavra ou frase que foi positivamente reconhecida e isto será comunicado de volta ao aplicativo.
-- A variável `resultados` ontém os valores retornados, ela tem um getter para que possa ser acessada como uma matriz.
+- A variável `resultados` obtém os valores retornados, ela tem um getter para que possa ser acessada como uma matriz.
 - A variável `sentenca` pega a variável `resultados` e acessa os itens [resultados.length - 1] e [0], e então transcreve esses itens.
 - Finalmente, `texto.value += sentenca;` obtém o valor do texto do elemento e então utilizando o operador de atribuição `+=`, adicionamos o resultado obtido ao texto atual.
 
@@ -223,7 +223,7 @@ botaoLerTexto.addEventListener('click', () => {
 });
 ```
 
-- O método **`addEventListener()`** configura uma função que será chamada sempre que o evento `clique` for acionado nos botões.
+- O método **`addEventListener()`** configura uma função que será chamada sempre que o evento `click` (clique) for acionado nos botões.
 - O evento `recognition.start()` inicia o aplicativo de reconhecimento de voz.
 - O `recognition.abort();` para o aplicativo de reconhecimento de voz.
 - No terceiro `addEventListener`, estamos chamando a função `lerTexto()` que criaremos.
@@ -254,7 +254,7 @@ Vamos entender melhor:
 
 Muito bem, vamos testá-lo! Clique no botão verde "Run" no topo do seu repl para executar o programa. Eu recomendo abrir a visualização em uma nova aba. Se tudo correr bem, o Google Chrome irá solicitar que você permita o acesso ao microfone. Permita o acesso ao seu microfone. Então, fale em com seu computador!
 
-Se não funcionar, passe pelo seu código linha por linha e tente ver se você consegue encontrar o que deu errado. Se você estiver confuso, pergunte ao líder do seu clube ou para alguém da comunidade no [Discord](https://discord.gg/xZmn84EtPk).
+Se não funcionar, passe pelo seu código linha por linha e tente ver se você consegue encontrar o que deu errado. Se você estiver confuso, pergunte ao líder do seu clube ou para um HackClubber da comunidade no [Discord](https://discord.gg/xZmn84EtPk).
 
 
 Aqui está o código final em JS:
@@ -311,7 +311,7 @@ function lerTexto(texto) {
 ## Hackeando
 Boooa!! você conseguiu chegar ao final deste workshop. Sei que este foi um workshop bem simples, mas você ainda pode fazer coisas bem complexas... Deixe-me te dar algumas ideias
 
-- Use [validação IF](https://www.w3schools.com/js/js_if_else.asp) para fazer alguma coisa quando o aplicativo de reconhecimento de fala retornar o texto corretamente.
+- Use [condições IF](https://www.devmedia.com.br/javascript-if-else-criando-scripts-com-estruturas-condicionais/39686) para fazer alguma coisa quando o aplicativo de reconhecimento de fala retornar o texto corretamente.
 - Crie um aplicativo que toque, pare e pule músicas.
 - Estilize seu aplicativo para que ele pareça (mais) legal.
 
