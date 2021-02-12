@@ -353,7 +353,7 @@ Primeiro, é verificado se a `input` está vazia ou não. (Definitivamente, não
 
 Portanto, basicamente verificamos se o `arrOperacoes` inclui o último valor da `input` ou não. Se esta condição for verdadeira, ela passa novamente para a condição seguinte que verifica se o argumento `val` está incluído no `arrOperacoes` ou não.
 
-**O que tudo isso significa?** Simplestemente está sendo verificado se o valor previamente pressionado pelo usuário é um operador ou não, enquanto também é verificado se o valor recém pressionado (`val`) é novamente, um operador ou não. Isto significará que o usuário pressionou os operadores 2 vezes simultaneamente. Assim, será evitado.
+**O que tudo isso significa?** Simplesmente está sendo verificado se o valor previamente pressionado pelo usuário é um operador ou não, enquanto também é verificado se o valor recém pressionado (`val`) é novamente, um operador ou não. Isto significará que o usuário pressionou os operadores 2 vezes simultaneamente. Assim, será evitado.
 
 Se a primeira condição for verdadeira sozinha, a função simplesmente não retornará nada. Também, se a segunda e a terceira condição forem ambas verdadeiras, ela fará o mesmo.
 
@@ -493,7 +493,7 @@ Confira o que outros Hack Clubbers construíram!
 
 2. [Jack](https://codesandbox.io/s/calculadora-jack-ep3qp)
 
-Agora que você terminou de construr, compartilhe sua bela criação com outras pessoas! (Mal posso esperar para ver você enviar seu projeto!)
+Agora que você terminou de construir, compartilhe sua bela criação com outras pessoas! (Mal posso esperar para ver você enviar seu projeto!)
 
 Você provavelmente conhece as melhores maneiras de entrar em contato com seus amigos e familiares, mas se você quiser compartilhar seu projeto com a comunidade mundial do Hack Club, não há melhor lugar para fazer isso do que no Slack Club.
 
