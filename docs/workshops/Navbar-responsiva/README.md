@@ -1,8 +1,8 @@
 ---
 title: 'Barra de navegação responsiva'
 description: 'Construa uma barra de navegação que responde o tamanho do navegador'
-bg-image: "/workshops/Navbar-responsiva/img/Background.png"
-permalink: /workshops/Navbar-responsiva/
+bg-image: "/workshops/navbar-responsiva/img/Background.png"
+permalink: /workshops/navbar-responsiva/
 order: 28
 ---
 
@@ -35,15 +35,17 @@ Vamos dar uma olhada abaixo?
 ![Barra de navegação responsiva](img/Imagem4.gif)
 
 
-Parte 1: Pré-requisitos
+*Parte 1:* **Pré-requisitos**
 
 Você deve ter um conhecimento de iniciante em:
 
-HTML
-CSS
-JavaScript
+**HTML**
 
-Parte 2: Configuração
+**CSS**
+
+**JavaScript**
+
+*Parte 2:* **Configuração**
 
 **Configurando seu ambiente de código no Repl.it**
 
@@ -55,7 +57,7 @@ Você deve ver algo como o seguinte:
 
 ![Barra de navegação responsiva](img/Imagem5.png)
 
-Parte 3: Construindo o projeto
+*Parte 3:* **Construindo o projeto**
 
 1) HTML
 Vamos começar a escrever o código HTML exigido no arquivo index.html. Escreveremos todo nosso código dentro das etiquetas ```<body></body>```.
@@ -85,7 +87,7 @@ Além disso, o elemento ``<nav>`` tem uma classe de barra de navegação ( ``<na
 Agora, vamos também criar um botão que só será visível para telas menores e fará com que a barra de navegação apareça de lado. Ele virá abaixo da lista não ordenada dentro do elemento ``<nav>``.
 
 ```
-<div class="botão">
+<div class="botao">
   <div class="rows">
     <div class="span"></div>
     <div class="span"></div>
@@ -181,7 +183,7 @@ Aqui, você pode ver a lista na forma de barra de navegação e também pode ver
 Além disso, não queremos que o botão seja exibido agora, portanto, vamos fazer com que ele seja display: none;
 
 ```
-.botão {
+.botao {
   display: none;
 }
 ```
@@ -219,7 +221,7 @@ O código CSS está assim até agora:
   transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
-.botão {
+.botao {
   display: none;
 }
 ```
@@ -270,7 +272,7 @@ A seguir, também tornaremos o botão visível como está configurado para ``dis
 @media (max-width: 450px) {
   ... // rest of the code above
 
-  .botão {
+  .botao {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -323,7 +325,7 @@ E ainda mais estilos!
 
 **Explicação:**Lembra que colocamos nossa barra de navegação fora da tela? Sim, então para trazê-la de volta à tela, definimos a classe barra lateral que transformará sua posição x de -100% para 0. Posteriormente, alternaremos esta classe para nossa barra de navegação usando JavaScript.
 
-Além disso, as próximas três classes são definidas com o objetivo de trazer uma animação no botão quando ela é clicada. Giremos a primeira e a terceira linha do botão do hambúrguer para que ele pareça um botão de fechamento (X). A linha do meio fica escondida à medida que a reduzimos para 0. Isto também será alternado usando o JavaScript.
+Além disso, as próximas três classes são definidas com o objetivo de trazer uma animação no botão quando ela é clicada. Giremos a primeira e a terceira linha do botão para que ele pareça um botão de fechamento (X). A linha do meio fica escondida à medida que a reduzimos para 0. Isto também será alternado usando o JavaScript.
 
 Consulte aqui o código CSS até o momento.
 
@@ -377,10 +379,10 @@ E com isto, terminamos nosso **projeto!** Confira o que você acabou de construi
 
 ![Barra de navegação responsiva](img/Imagem12.gif)
 
-Parte 4: O Fim
+*Parte 4:* **O Fim**
 Agora eu entrego este projeto a vocês! É totalmente seu agora!
 
-Se você ainda não criou uma conta no [repl.it](https://www.repl.it/), certifique-se de fazê-lo para salvar esta maravilhosa ferramenta de criação!
+Se você ainda não criou uma conta no [repl.it](https://www.repl.it/){:target="_blank"}, certifique-se de fazê-lo para salvar esta maravilhosa ferramenta de criação!
 
 Se você ainda enfrentar dificuldades para se inscrever, assista [esse](https://www.youtube.com/watch?v=Mtqp4CUepk0){:target="_blank"} video.
 
