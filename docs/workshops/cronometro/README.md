@@ -19,7 +19,7 @@ Aposto que você já usou um cronômetro muitas vezes, seja para corridas ou ape
 <img src="img/project.png">
 </a>
 
-Aqui está o [código fonte](https://repl.it/@FaisalSayed1/Stopwatch-HTMLCSSJS) e a [demonstração ao vivo](https://stopwatch-htmlcssjs.faisalsayed1.repl.co/).
+Aqui está o [código fonte](https://repl.it/@biel42/cronometro#index.html) e a [demonstração ao vivo](https://cronometro.biel42.repl.co/).
 
 ## Parte 1:  Pré-requisitos
 
