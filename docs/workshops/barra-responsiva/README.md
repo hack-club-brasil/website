@@ -1,8 +1,8 @@
 ---
 title: 'Barra de navegação responsiva'
 description: 'Construa uma barra de navegação que responde ao tamanho do navegador'
-bg-image: "/workshops/navbar-responsiva/img/fundo.png"
-permalink: /workshops/navbar-responsiva/
+bg-image: "/workshops/barra-responsiva/img/fundo.png"
+permalink: /workshops/barra-responsiva/
 order: 28
 ---
 
@@ -403,9 +403,9 @@ Aqui estão algumas coisas que você pode fazer:
 
 **Alguns outros exemplos pra você!**
 
-  * [Exemplo de barra lateral](https://repl.it/@FaisalSayed1/Responsive-Navbar-Example-1){:target="_blank"}.
-  * [Barra pulando de cima exemplo 1](https://repl.it/@FaisalSayed1/Responsive-Navbar-Example-2){:target="_blank"}.
-  * [Barra pulando de cima exemplo 2](https://repl.it/@FaisalSayed1/Responsive-Navbar-Example-3){:target="_blank"}.
+  * [Exemplo de barra lateral](https://repl.it/@FaisalSayed1/Responsive-barra-Example-1){:target="_blank"}.
+  * [Barra pulando de cima exemplo 1](https://repl.it/@FaisalSayed1/Responsive-barra-Example-2){:target="_blank"}.
+  * [Barra pulando de cima exemplo 2](https://repl.it/@FaisalSayed1/Responsive-barra-Example-3){:target="_blank"}.
 
 Agora que você terminou de construir este maravilhoso projeto, compartilhe sua bela criação com outras pessoas! Lembre-se, é só mandar a URL do seu projeto!
 
