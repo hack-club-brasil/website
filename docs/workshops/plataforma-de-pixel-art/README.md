@@ -2,7 +2,7 @@
 
 title: 'Plataforma de arte em píxels'
 description: 'Construa uma plataforma de arte em pixel usando HTML e Java'
-bg-image: "/workshops/plataforma-de-arte-de-pixel/img/fundo.png"
+bg-image: "/workshops/plataforma-de-pixel-art/img/fundo.png"
 permalink: /workshops/arte-em-pixel/
 order: 5
 
