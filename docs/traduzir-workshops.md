@@ -112,10 +112,19 @@ Aqui vão algumas regras para a tradução:
 - As imagens que contenham elementos em inglês devem ser substituídas por imagens tiradas por você com a versão traduzida em português do workshop.
 - A versão traduzida do workshop deve estar 100% funcional.
 - Traduza tudo que for possível, incluindo nomes de variáveis, funções e arquivos. Com exceção de termos especifícos como "Hooks" no React.
-- Se depois de acabar a tradução perceber que o workshop original continha alguns erros, abra um pull request para a seção de workshops do Hack Club Internacional.
+- Se depois de acabar a tradução perceber que o workshop original continha alguns erros, abra um pull request para a seção de workshops do Hack Club.
+- Utilize `##` (h2) para títulos de seções e `###` (h3) para subtítulos de seções.
+- Verifique se todos os links do workshop estão funcionando e dê preferência para links de sites em português.
+- Ao explicar propriedades CSS utilize a sintaxe \`nome-da-propriedade\` (nome-traduzido) para propriedades que façam sentido serem explicadas.
+- Teste o workshop e veja se ela está 100% utilizável para um líder de clube brasileiro que só fale português.
+- Em trechos de código utilize, a sintaxe:
 
-Depois que seu workshop estiver pronto para um líder de clube brasileiro usar no clube dele, abra um pull request e ele será analisado para depois ser colocado no site brasileiro do Hack Club.
+\`\`\`nome-da-linguagem <br>
+código <br>
+\`\`\`
 
-Beeeem, eu acho que é isso. Em caso de dúvidas, mande uma mensagem para nosso time no Slack do Hack Club. Somos o grupo [@brasil](https://app.slack.com/client/T0266FRGM/browse-user-groups/user_groups/S01L1TL2RUY).
+Depois que seu workshop estiver pronto para um líder de clube brasileiro usar no clube dele, abra um pull request e ele será analisado para depois ser colocado no site com os workshops traduzidos do Hack Club.
+
+Beeeem, eu acho que é isso. Em caso de dúvidas, mande uma mensagem para nosso time no [Discord da comunidade brasileira do Hack Club](https://bit.ly/discord-hc-brasil). Somos o [@time]().
 
  :)
