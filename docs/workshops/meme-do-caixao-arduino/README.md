@@ -32,7 +32,7 @@ Vamos usar o circuito interativo do Tinkercad, que é excelente; é como constru
 
 **Circuito final**
 
-- Aqui está o código/demo final: [demo]( https://www.tinkercad.com/things/92aTTFLqRgP ) 
+- Aqui está o código/demo final: [demo](https://www.tinkercad.com/things/4Wu11fxjwpm-danca-do-caixao) 
 
 ---
 
@@ -66,7 +66,7 @@ Aqui está um resumo dos itens em cada retângulo, da esquerda para a direita:
 
 **Verde** : algumas ações pertinentes aos dispositivos, tais como girar, apagar, desfazer/refazer, etc.
 
-**Azul** : o botão para alternar entre aa janela de código, botão de simulação e métodos para exportar/compartilhar
+**Azul** : o botão para alternar entre a janela de código, botão de simulação e métodos para exportar/compartilhar
 
 **Amarelo**: a janela de componentes com uma enorme variedade de dispositivos para usar
 
@@ -281,7 +281,7 @@ O código final está disponível na demonstração no topo desta página. Se vo
 
 ![yay](https://cloud-mlx5oz5hm.vercel.app/tenor.gif)
 
-Este workshop passou por cima do básico de como fazer uma música com Arduino, mas há muito a ser mudado! Veja se você pode mexer nas durações das notas para criar acordes (já que o Arduino não suporta tocar várias notas ao mesmo tempo), arranje suas próprias canções, etc. Se você acha que sua criação é épica, por favor, compartilhe-a com a comunidade brasileira do Hack Club!
+Este workshop passou por cima do básico de como fazer música com Arduino, mas há muito a ser mudado! Veja se você consegue mexer nas durações das notas para criar acordes (já que o Arduino não suporta tocar várias notas ao mesmo tempo), arranje suas próprias canções, etc. Se você acha quer sua criação está épica, compartilhe-a com a comunidade brasileira do Hack Club!
 
 Aqui estão alguns ramos do projeto que se baseiam no código escrito nesta oficina:
 
