@@ -21,7 +21,7 @@
 title: Hack Club Brasil
 email: oi@hackclubbrasil.com.br
 description: >- # this means to ignore newlines until "baseurl:"
-  O Hack Club Brasil é a primeira comunidade para jovens makers no país que querem fazer a difença com tecnologia.
+  O Hack Club Brasil é a primeira comunidade para jovens makers no país que querem fazer a diferença com tecnologia por meio de clubes de programação criativa.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hackclubbrasil.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
