@@ -394,13 +394,3 @@ table {
   .post-title  {font-size: 4vw;}
   .post { width: 800px; font-size: 17px;}
 }
-
-@media screen and (max-width: 530px) {
-  .vercel-powered {
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;}
-}
-
-@media screen and (min-width: 531px) {
-  .vercel-powered {float: right}
-}
