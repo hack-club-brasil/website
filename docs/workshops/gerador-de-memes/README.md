@@ -15,7 +15,7 @@ order: 30
 
 Você gosta de memes? Já quis fazer seu próprio, mas não sabia que aplicativo instalar? Não se preocupe, porque neste workshop, você criará seu próprio ***Gerador de Memes*** — ou, como gosto de chamar, o *Gênio Meme*.
 
-![](img/meme_site.png)
+![Site gerador de memes pronto com um título "Bem-vindo ao Gênio Meme", dois campos de texto representando o texto de cima e o texto de baixo, 2 deslizadores para aumentar ou reduzir o tamanho, campo para upload da imagem do meme, e botão para gerar meme](img/meme_site.png)
 
 Então vamos começar!
 
@@ -33,7 +33,11 @@ Conhecimento básico de:
 
 Nós estaremos utilizando um editor de código online chamado [repl.it](https://repl.it) para este workshop.
 
-Para começarmos, vá para [https://repl.it/languages/html](https://repl.it/languages/html). Seu ambiente de desenvolvimento vai aparecer em poucos segundos!
+Para começarmos, vá para [https://repl.it/languages/html](https://repl.it/languages/html). Caso você não tenha cadastro, uma tela parecida com a abaixo aparecerá:
+
+![Página web do repl.it com um botão de cadastro no meio da tela](img/replit_signup.png)
+
+Clique no botão azul no meio da tela e crie uma conta no repl.it caso ainda não tenha e seu ambiente de desenvolvimento vai aparecer em poucos segundos!
 
 ![Doge animado em um foguete](img/doge_foguete.gif)
 
@@ -51,9 +55,9 @@ Vamos começar fazendo uma estrutura para o nosso site gerador de memes.
   <h1>Bem-vindo ao Gênio Meme 🧞</h1>
   ```
 
-* Agora desejamos que nossos memes tenham 2 campos de texto: ***Texto de Cima*** e ***Texto de Baixo***, parecido com isso:
+* Agora desejamos que nossos memes tenham dois campos de texto: ***Texto de Cima*** e ***Texto de Baixo***, parecido com isso:
 
-    ![Meme mostrando texto de cima e texto de baixo](img/meme_com_texto.png)
+    ![Meme de Doge mostrando texto de cima e texto de baixo](img/meme_com_texto.png)
 
     Para fazermos isso, utilizaremos duas tags `<textarea>` após nossa tag `<h1>`:
 
@@ -90,7 +94,7 @@ Vamos começar fazendo uma estrutura para o nosso site gerador de memes.
     <button id="botao-gerar">Gerar!</button>
     ```
 
-* Certo, mas nós também precisamos de algo para mostrar o meme, correto?
+* Mas nós também precisamos de algo para mostrar o meme, correto?
 
     Para isso, utilizaremos um [Canvas do HTML5](https://developer.mozilla.org/pt-BR/docs/Web/API/Canvas_API):
 
@@ -330,8 +334,8 @@ Agora, dentro da função `gerarMeme()`:
   -> 2. Depois, vamos definir um texto padrão (ou valor) para `textoCimaInput` e `textoBaixoInput`:
 
     ```javascript
-      textoCimaInput.value = 'Valor de\nCima';
-      textoBaixoInput.value = 'Valor de\nBaixo';
+      textoCimaInput.value = 'Texto de\nCima';
+      textoBaixoInput.value = 'Texto de\nBaixo';
     ```
 
   -> 3. Após isso, adicione um *event listener* `click` para `botaoGerar`. O código aí dentro é executado sempre que o botão for clicado.
@@ -416,8 +420,8 @@ Agora, dentro da função `gerarMeme()`:
     const imagemInput = document.getElementById('imagem-input');
     const botaoGerar = document.getElementById('botao-gerar');
 
-    textoCimaInput.value = 'Valor de\nCima';
-    textoBaixoInput.value = 'Valor de\nBaixo';
+    textoCimaInput.value = 'Texto de\nCima';
+    textoBaixoInput.value = 'Texto de\nBaixo';
 
     botaoGerar.addEventListener('click', () => {
       const leitor = new FileReader();
@@ -457,8 +461,6 @@ Aqui vão algumas sugestões do que você pode adicionar:
 5. Adicione botões de baixar e compartilhar para mostrar a todos seu meme incrível!
 
 ## Parte 5: O Fim
-
-Se você não criou uma conta no [repl.it](https://repl.it), o faça para que você consiga salvar essa sua maravilhosa criação!
 
 Se você está tendo problemas para se cadastrar, fale com um líder de seu clube ou com alguém no [Slack do Hack Club](https://hackclub.com/slack)!
 
