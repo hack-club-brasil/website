@@ -22,7 +22,7 @@ O segundo objetivo é prover um meio de resolver conflitos na comunidade quando 
 
 O terceiro objetivo do Código de Conduta é fazer nossa comunidade um lugar acolhedor para pessoas com diferentes perspectivas. Diversidade é fundamental para nós construirmos uma comunidade próspera; para o Hack Club ser bem sucedido, precisamos de hackers representando diferentes grupos/etnias.
 
-Com isso dito, uma comunidade saudável precisa permitir discordâncias e debates. O Código de Conduta não é um mecanismo para silenciar para pessoas silenciarem outras quando discordarem entre si.
+Com isso dito, uma comunidade saudável precisa permitir discordâncias e debates. O Código de Conduta não é um mecanismo para pessoas silenciarem outras quando discordarem entre si.
 
 ## Onde o Código de Conduta se aplica?
 
