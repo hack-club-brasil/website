@@ -74,8 +74,8 @@ Vamos começar fazendo uma estrutura para o nosso site gerador de memes.
     ```
 
     ```html
-    <textarea id="bottom-text"></textarea>
-    Text size: <input type="range" id="tamanho-texto-baixo" min="0.05" max="0.25" value="0.15" step="0.01">
+    <textarea id="texto-baixo"></textarea>
+    Tamanho do texto: <input type="range" id="tamanho-texto-baixo" min="0.05" max="0.25" value="0.15" step="0.01">
     ```
 
     Aqui, `min` é o tamanho mínimo do texto, `max` é o tamanho máximo do texto, `value` é o valor padrão e o argumento `step` é o intervalo entre cada seção do controle deslizante, controlando a precisão do mesmo.
@@ -454,7 +454,7 @@ Agora que terminamos de construir um site bem básico, podemos adicionar um mont
 
 Aqui vão algumas sugestões do que você pode adicionar:
 
-1. Tente adicionar um [seletor de cores](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input/color), para que o usuário possa mudar a cor do textoCima/textoBaixo.
+1. Tente adicionar um [seletor de cores](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color), para que o usuário possa mudar a cor do textoCima/textoBaixo.
 2. Adicione o recurso arrastar e soltar, utilizando a [API de Drag and Drop do HTML5](https://web.dev/drag-and-drop/).
 3. Utilize [Flexbox](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox) criar um layout bacana.
 4. Utilize uma API a fim obter modelos para memes, como o disponibilizado pela [ImgFlip](https://imgflip.com/api).
@@ -479,8 +479,13 @@ Se você está tendo problemas para se cadastrar, fale com um líder de seu club
 
 ![Doge sendo apreciado](img/doge_apreciado.gif)
 
-Agora que você terminou de construir um projeto incrível, você deveria compartilhar ele com seus amigos ou com o mundo todo através da comunidade do Hack Club!
+Agora que você terminou de construir este maravilhoso projeto, compartilhe sua bela criação com outras pessoas! Lembre-se, é só mandar a URL do seu projeto!
 
-Em uma nova janela, abra e acesse [esse](https://slack.hackclub.com/) site para se inscrever no nosso Slack. Então poste o que você criou no canal `#ship` para compartilhar com todos o que você fez!
+Você provavelmente conhece as melhores maneiras de entrar em contato com seus amigos e familiares, mas se você quiser compartilhar seu projeto com a comunidade, não há melhor lugar para fazer isso do que na Comunidade Brasileira do Hack Club.✨
 
-P.S Eu sou o @Aaryan Porwal no Slack do Hack Club.
+1. Clique [aqui][discord]{:target="_blank"} para fazer parte!
+2. Depois, poste o link do seu projeto no canal `💡┇criações` para compartilhá-lo com todos os HackClubbers!
+
+A comunidade te espera!🎉🎉
+
+[discord]: http://bit.ly/discord-hc-brasil
