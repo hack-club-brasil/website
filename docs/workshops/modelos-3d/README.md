@@ -307,7 +307,6 @@ Confira estes modelos 3D legais feitos por outras pessoas:
 
 - [Relógio digital ao vivo feito com Zdog](https://codepen.io/jh3y/pen/vqYLKd)
 - [Ametista do Universo Steven feita usando Zdog](https://codepen.io/Metahari/pen/dEQMBy)
-- [Moeda genérica feita com Zdog](https://repl.it/@wollygfx/Demo-3-Zdog)
 
 ### Recursos
 
