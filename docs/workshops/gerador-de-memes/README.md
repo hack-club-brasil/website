@@ -41,7 +41,9 @@ Clique no botão azul no meio da tela e crie uma conta no repl.it caso ainda nã
 
 ![Doge animado em um foguete](img/doge_foguete.gif)
 
-## Part 3: Construindo o Projeto
+Se você está tendo problemas para se cadastrar, fale com um líder de seu clube ou com alguém no [Slack do Hack Club](https://hackclub.com/slack), ou na [Comunidade Brasileira do Hack Club][discord]!
+
+## Parte 3: Construindo o Projeto
 
 ### 1) HTML
 
@@ -461,8 +463,6 @@ Aqui vão algumas sugestões do que você pode adicionar:
 5. Adicione botões de baixar e compartilhar para mostrar a todos seu meme incrível!
 
 ## Parte 5: O Fim
-
-Se você está tendo problemas para se cadastrar, fale com um líder de seu clube ou com alguém no [Slack do Hack Club](https://hackclub.com/slack)!
 
 ### Alguns Outros Exemplos
 
