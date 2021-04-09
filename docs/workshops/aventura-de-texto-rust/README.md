@@ -396,7 +396,7 @@ Além dos comentários no próprio código, há alguns detalhes importantes a se
 - Neste exemplo, temos duas respostas possíveis, portanto, a história segue sempre dois caminhos totalmente diferentes. A maioria dos videogames acaba dando ao jogador a ilusão de escolha, fazendo-o passar por consequências de curto prazo e depois distorcendo a história de tal forma que tudo funciona da mesma maneira ou de uma maneira ligeiramente diferente, e eles acabam dando-lhe um final diferente. Títulos aclamados pela crítica, como **The Last of Us**, **The Witcher**, **Night in the Woods**, **Mass Effect** ou **Assassin's Creed** fazem isso.
 - No entanto, ainda assim, acabamos dando ao jogador um diálogo diferente a cada vez. Em nosso caso, é que quase todas as decisões erradas expulsam o jogador do jogo.
 - Você pode querer lidar com todas as cláusulas `if... else` e a lógica do jogo em uma função, em vez de lidar com a lógica por todo o lado. No entanto, acreditamos que a maneira como escrevemos deixa espaço para mais flexibilidade.
-- Também movemos todas as respostas corretas para sua própria função. para manter nosso código mais claro
+- Também movemos todas as respostas corretas para sua própria função, para manter nosso código mais claro
 
 Parabéns! Você acaba de escrever seu primeiro jogo em Rust. 🎉
 

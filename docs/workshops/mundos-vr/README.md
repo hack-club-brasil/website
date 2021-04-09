@@ -201,7 +201,7 @@ As luzes ambiente afetam todos os primitivos da cena, se você escolher uma cor 
 
 **Luzes direcionais**
 
-As luzes direcionais são como uma fonte de luz que está infinitamente distante, mas brilhando de uma direção específica, como o sol. Devemos especificar para onde a luz está apontando, fazemos isso utilizando o atributo `target` (alvo), que aponta para a posição do objeto criança.
+As luzes direcionais são como uma fonte de luz que está infinitamente distante, mas brilhando de uma direção específica, como o sol. Devemos especificar para onde a luz está apontando, fazemos isso utilizando o atributo `target` (alvo), que aponta para a posição do objeto filho.
 
 ```html
 <a-light type="directional" target="#childbox" color="#007DF9" intensity="0.5" position="-0.5 1 1">

@@ -147,7 +147,7 @@ while not acabou:
   tabuleiro[n - 1] = "O"
 ```
 
-Precisamos de um loop para executar o jogo, pois haverá até 9 rodadas (uma para cada espaço). Portanto, vamos fazer um loop de tempo, desde que uma variável seja verdadeira. Dê para ela um nome como `acabou`. O laço funcionará desde que `acabou` seja `false` (falso). Podemos mais tarde mudar o `acabou` para `True` (verdadeiro) quando um jogador ganhar ou a partida for um empate. Em nosso loop, primeiro imprimimos o tabuleiro e pedimos uma entrada ao Jogador 1 ou simplesmente ao Jogador `X`. Depois imprimimos novamente o tabuleiro, mas desta vez com o sinal colocado no tabuleiro. Note que temos que reduzir o `PegarNumero()` em um para o índice de `tabuleiro[]`. Então, fazemos a mesma coisa para o Jogador `O`.
+Precisamos de um loop para executar o jogo, pois haverá até 9 rodadas (uma para cada espaço). Portanto, vamos fazer um loop de tempo, desde que uma variável seja verdadeira. Dê para ela um nome como `acabou`. O laço funcionará desde que `acabou` seja `False` (falso). Podemos mais tarde mudar o `acabou` para `True` (verdadeiro) quando um jogador ganhar ou a partida for um empate. Em nosso loop, primeiro imprimimos o tabuleiro e pedimos uma entrada ao Jogador 1 ou simplesmente ao Jogador `X`. Depois imprimimos novamente o tabuleiro, mas desta vez com o sinal colocado no tabuleiro. Note que temos que reduzir o `PegarNumero()` em um para o índice de `tabuleiro[]`. Então, fazemos a mesma coisa para o Jogador `O`.
 
 Ambos os jogadores devem agora ser capazes de colocar um sinal em seus turnos. 
 
@@ -338,7 +338,7 @@ Agora você pode jogar Jogo da Velha com um amigo no terminal! Você pode execut
 
 ## Hackeando
 
-Agora você tem o controle total sobre este código. Vá em frente e mexa com ele para ver se você pode encontrar maneiras de torná-lo mais divertido. Aqui estão algumas idéias:
+Agora você tem o controle total sobre este código. Vá em frente e mexa com ele para ver se você pode encontrar maneiras de torná-lo mais divertido. Aqui estão algumas ideias:
 
 - Alterne o primeiro jogador entre X e O cada vez que o jogador optar por jogar novamente.
 - Adicione uma opção de jogar de novo. *(dica: use [recursão](https://pt.wikipedia.org/wiki/Recursividade_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)#:~:text=Em%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o%2C%20a,recursivos%20para%20linguagens%20de%20programa%C3%A7%C3%A3o.))* [demo](https://repl.it/@VitorVavolizza/Jogo-da-Velha-Jogue-Novamente).

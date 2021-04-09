@@ -28,13 +28,13 @@ Você deve conhecer alguns conceitos básicos do React e eu recomendo que você 
 
 Para escrever nosso código, usaremos o [CodeSandbox](https://codesandbox.io), considerado o melhor editor de código online para React.
 
-Para começar, vá para este [código inicial](https://codesandbox.io/s/calculadora-inicial-nu23b). Pressione **`ctrl+s`** / **`cmd+s`** e ele irá automaticamente copiá-lo para você. Agora, temos tudo pronto, então vamos começar!
+Para começar, vá para este [código inicial](https://codesandbox.io/s/calculadora-inicial-nu23b). Pressione **`ctrl+s`** (Windows/Linux) ou **`cmd+s`** (macOS) e ele irá automaticamente copiá-lo para você. Agora, temos tudo pronto, então vamos começar!
 
 ### 1) O Código Inicial
 
 Vamos primeiro dar uma olhada no código inicial do nosso projeto.
 
-Primeiro, há 2 diretórios principais e um arquivo `package.json`. Vamos ignorar o arquivo `package.json` por enquanto e vamos dar uma olhada nos 2 diretórios, `public/` e `src/`.
+Primeiro, há 2 diretórios principais e um arquivo `package.json`. Vamos ignorar o arquivo `package.json` por enquanto e vamos dar uma olhada nos 2 diretórios: `public/` e `src/`.
 
 Normalmente, o diretório `public/` contém um arquivo HTML e todos os seus recursos. Não tocaremos no diretório `public/` durante todo o workshop, nem mesmo no arquivo HTML!
 
@@ -58,7 +58,7 @@ export default function App() {
 }
 ```
 
-Explicação: Aqui, `useState` já é importado para você, pois o utilizaremos na parte final do workshop A seguir, há um conjunto contendo todos os operadores básicos. O componente `App` simplesmente renderiza um cabeçalho e um `div` com um `nome de classe` de `calc-wrapper` por enquanto.
+Explicação: Aqui, `useState` já é importado para você, pois o utilizaremos na parte final do workshop. A seguir, há um conjunto contendo todos os operadores básicos. O componente `App` simplesmente renderiza um cabeçalho e um `div` com um `nome de classe` de `calc-wrapper` por enquanto.
 
 Em seguida, se procurarmos no diretório `components/`, temos um componente `Botao` e um arquivo `components.css`.
 
@@ -79,7 +79,7 @@ const Botao = () => {
 };
 ```
 
-Explicação: Criamos uma função chamada `ehNum` que aceita um `val` como argumento. Em seguida, ela verifica se o `val` é um número, `C` (limpar) ou um decimal (`.`), se alguma das condições for verdadeira, ela retorna `verdadeiro` ou então simplesmente retorna `falso`.
+Explicação: Criamos uma função chamada `ehNum` que aceita um `val` como argumento. Em seguida, ela verifica se o `val` é um número, `C` (limpar) ou um decimal (`.`), se alguma das condições for verdadeira, ela retorna `verdadeiro`, ou então, simplesmente retorna `falso`.
 
 Em seguida, criaremos uma função para verificar se um valor é ou não um sinal de igual.
 
@@ -110,7 +110,7 @@ Exemplo:
 <Botao>7</Botao> // Aqui, 7 é a children do componente.
 ```
 
-2. `onClick` - Essa prop irá simplesmente armazenar as funções que criaremos mais tarde para nossa calculadora. Esta função será passada para o componente `onClick` do Botão.
+2. `onClick` - Essa prop irá simplesmente armazenar as funções que criaremos mais tarde para nossa calculadora. Esta função será passada para o valor `onClick` do botão.
 
 3. `isInput` - Essa prop funcionará como um booleano para nós e nos ajudará a determinar se o componente renderizará ou não o valor do estado da `input` (entrada).
 
@@ -137,11 +137,11 @@ const Botao = ({ children, onClick, isInput }) => { // <-- Props
 };
 ```
 
-Explicação: Primeiro aceitamos as 3 props neste componente. Depois, utilizamos `fragmentos` para serem o elemento pai do `jsx`. Os fragmentos permitem agrupar uma lista de crianças sem adicionar nós extras ao DOM.
+Explicação: Primeiro aceitamos as 3 props neste componente. Depois, utilizamos `fragmentos` para serem o elemento pai do `jsx`. Os fragmentos permitem agrupar uma lista de elementos-filhos sem adicionar nodos extras ao DOM.
 
 **NOTA:** `<></>` são conhecidos como fragmentos.
 
-Em seguida, utilizamos [operadores ternários](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) para tornar diferente o `div` dependendo da situação. Se o `isInput` for verdadeiro, ele renderizará o `div` com o `nome de classe` `input`, caso contrário renderizará outro `div`.
+Em seguida, utilizamos [operadores ternários](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) para tornar diferente o `div` dependendo da situação. Se o `isInput` for verdadeiro, ele renderizará o `div` com o `nome de classe` `input`, caso contrário renderizará outro `div`.
 
 Observe que no segundo `div`, utilizamos novamente `operadores ternários` para determinar o `nome da classe` do `div`. Chamamos a função `ehIgual` passando o valor de `children` e se for `verdadeira`, ela adicionará um `nome de classe` de `btn-igual` ao `div`. Também chamamos a função `ehNum` passando-lhe o mesmo valor de `children` e se ela retorna `verdadeiro`, ela adicionará um nome de classe de `operacao` ao `div`.
 
@@ -413,7 +413,7 @@ return (
 
 Em seguida, para cada `Botao` que tem um número como `children` (filhos), nós passaremos `onClick={insereNum}` a ele. E para cada `Botao` que tem um operador como `children` (incluindo o decimal `.`) passaremos `onClick={insereOperacao}` como prop para ele.
 
-Para o botão que tem `=` como children, passaremos a prop `onClick=={calcular}` para ele.
+Para o botão que tem `=` como children, passaremos a prop `onClick={calcular}` para ele.
 
 Finalmente, para o botão `C` (limpar) como children, vamos passar `onClick` e também criar uma função inline que simplesmente limpará o estado.
 

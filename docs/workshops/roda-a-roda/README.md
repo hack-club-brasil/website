@@ -111,7 +111,7 @@ As opções em sua roda giratória estarão dentro das tags `span`. Portanto, en
 <span class="span4"><b>Coringa</b></span>
 ```
 
-Uma vez feito isso, adicione um `<div class="caixa2">` após seu div `caixa1`, depois copie e cole todos os 4 divs `span` que você já criou e personalize-os assim.👇
+Uma vez feito isso, adicione um `<div class="caixa2">` após seu div `caixa1`, depois copie e cole todos os 4 `span` que você já criou e personalize-os assim.👇
 
 ```html
 <div class="caixa2">

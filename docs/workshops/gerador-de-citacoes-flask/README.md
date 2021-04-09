@@ -69,7 +69,7 @@ Como você pode ver, as rotas do Flask são definidas com o `@flaskinstance.rout
 
 ![meme do me dê seu telefone, mas é me dê seus dados](img/medeseusdados.png)
 
-Anteriormente, importamos o módulo `requests`, que utilizaremos para fazer [requisições HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
+Anteriormente, importamos o módulo `requests`, que utilizaremos para fazer [requisições HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages).
 
 Dentro da função `index`, adicione o seguinte código:
 
