@@ -71,7 +71,7 @@ Primeiro vamos criar uma função `ehNum` dentro do componente que verifica se o
 ```jsx
 const Botao = () => {
   const ehNum = (val) => {
-    if (!isNaN(val) || val === 'L' || val === '.') {
+    if (!isNaN(val) || val === 'C' || val === '.') {
       return true;
     }
     return false;
@@ -163,7 +163,7 @@ import "./components.css";
 
 const Botao = ({ children, onClick, isInput }) => {
   const ehNum = (val) => {
-    if (!isNaN(val) || val === "L" || val === ".") {
+    if (!isNaN(val) || val === "C" || val === ".") {
       return true;
     }
     return false;
